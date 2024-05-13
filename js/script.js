@@ -1,8 +1,19 @@
-const userNumberA = parseInt (prompt('scegli un numero'), 10)
-const userNumberB = parseInt (prompt('scegli un numero'), 10)
+// const userNumberA = parseInt (prompt('scegli un numero'), 10)
+// const userNumberB = parseInt (prompt('scegli un numero'), 10)
 
-if (userNumberA > userNumberB){
-    console.log(userNumberA)
-} else{
-    console.log(userNumberB)
+// if (userNumberA > userNumberB){
+//     console.log(userNumberA)
+// } else{
+//     console.log(userNumberB)
+// }
+
+
+const invitedList = ['Bruno', 'Daniele', 'Francesco', 'Giuseppe', 'Lorenzo'];
+
+const invitedName = prompt('Inserisci il tuo nome');
+
+if (invitedList.includes(invitedName)){
+    console.log('Puoi entrare')
+} else {
+    console.log('Non puoi entrare')
 }
