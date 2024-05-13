@@ -1,5 +1,5 @@
-const userNumberA = prompt('scegli un numero')
-const userNumberB = prompt('scegli un altro numero')
+const userNumberA = parseInt (prompt('scegli un numero'), 10)
+const userNumberB = parseInt (prompt('scegli un numero'), 10)
 
 if (userNumberA > userNumberB){
     console.log(userNumberA)
