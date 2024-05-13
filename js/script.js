@@ -21,7 +21,7 @@
 
 const numeriDispari = [];
 
-for (let userNumber = 0; userNumber < 6; userNumber++){
+for (let index = 0; index < 6; index++){
 
     userNumber = parseInt (prompt('scegli un numero'), 10)
 
