@@ -4,7 +4,7 @@
 const numberList = [1,2,3,4,5,6]
 let somma = 0
 
-for (i = 0; i < numberList.length; i++){
+for (let i = 0; i < numberList.length; i++){
     if (i % 2 === 1){
         somma += numberList[i]
     }
